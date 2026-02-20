@@ -1,9 +1,20 @@
 class chatbook:
+
+    user_id=0
     def __init__(self):
         self.usrname=''
+        self.id= chatbook.user_id
+        chatbook.user_id += 1
         self.loggedin= False
         self.passkey=''     
-        self.menu()
+        self.__name="Default"
+    #    self.menu()
+
+    def get_name():
+        return chatbook.user_id
+    
+    def set_name():
+        chatbook.user_id=10
 
     def menu (self):
         user_input=input(''''Welcome, give your response:
