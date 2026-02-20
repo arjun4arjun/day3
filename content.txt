@@ -1,2 +1,3 @@
 attributes of a defined class are called automatically white the functions might not get called
 Everything in Python is a class, all the lists or arrays or variables or data structures are all classes hence Python is called Object Oriented Programming Language
+In modular programming, "from" is used to mention the file and "import" used for name of class to import.
