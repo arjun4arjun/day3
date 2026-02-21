@@ -5,10 +5,11 @@ user1= chatbook()
 #user1.set_name("Titan")
 #print(user1.get_name())
 print(user1.id)
-chatbook.set_name()
+#chatbook.set_name()
 user2=chatbook()
 print(user2.id)
 
+chatbook.set_id(6)
 user3= chatbook()
 print(user3.id)
 

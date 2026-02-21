@@ -1,6 +1,6 @@
 class chatbook:
+    user_id=1
 
-    user_id=0
     def __init__(self):
         self.usrname=''
         self.id= chatbook.user_id
@@ -9,12 +9,11 @@ class chatbook:
         self.passkey=''     
         self.__name="Default"
     #    self.menu()
-
-    def get_name():
+    def get_id():
         return chatbook.user_id
     
-    def set_name():
-        chatbook.user_id=10
+    def set_id(value):
+        chatbook.user_id=value
 
     def menu (self):
         user_input=input(''''Welcome, give your response:
@@ -72,3 +71,4 @@ class chatbook:
             print("Signin First! \n")
         self.menu()            
 #object1= chatbook()
+
